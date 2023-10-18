@@ -1,13 +1,10 @@
 {
   "files": {
-    "main.css": "/UlianaNad/goit-react-hw-01-components/static/css/main.7acaea2f.css",
-    "main.js": "/UlianaNad/goit-react-hw-01-components/static/js/main.07d3183d.js",
+    "main.js": "/UlianaNad/goit-react-hw-01-components/static/js/main.6bc0ea8c.js",
     "index.html": "/UlianaNad/goit-react-hw-01-components/index.html",
-    "main.7acaea2f.css.map": "/UlianaNad/goit-react-hw-01-components/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/UlianaNad/goit-react-hw-01-components/static/js/main.07d3183d.js.map"
+    "main.6bc0ea8c.js.map": "/UlianaNad/goit-react-hw-01-components/static/js/main.6bc0ea8c.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/js/main.6bc0ea8c.js"
   ]
 }
