@@ -30,7 +30,7 @@ export const Profile = ({ user }) => {
 };
 
 Profile.propTypes = {
-  data: PropTypes.shape({
+  user: PropTypes.shape({
     username:PropTypes.string,
     tag: PropTypes.string,
     location: PropTypes.string,
