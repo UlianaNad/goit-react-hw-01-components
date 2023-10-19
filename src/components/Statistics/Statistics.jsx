@@ -23,5 +23,10 @@ export const Statistics = data => {
 Statistics.protoTypes = {
   data: PropTypes.shape({
     title:PropTypes.string,
+    stats: PropTypes.shape({
+      id:PropTypes.string,
+      label: PropTypes.string,
+      percentage: PropTypes.string
+    })
   })
 }
