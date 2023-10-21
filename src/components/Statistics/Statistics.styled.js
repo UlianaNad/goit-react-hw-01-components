@@ -1,6 +1,10 @@
 import styled from 'styled-components';
 export const StyledSection = styled.section`
-  width: 500px;
+  h2{
+    text-align: center;
+  }
+
+  width: 750px;
   margin: 0 auto;
   padding: 20px;
   border-radius: 20px;
@@ -13,4 +17,25 @@ export const StyledUl = styled.ul`
     justify-content: space-between;
     align-items: center;
     padding-left: 0;
+`;
+
+export const StyledLi = styled.li`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid yellow;
+    padding: 10px;
+    width: 120px;
+    background-color: yellowgreen;
+`;
+export const StyledSpanLabel = styled.span`
+      font-size: 20px;
+    font-weight: 500;
+`;
+export const StyledSpanPercentage = styled.span`
+      margin-top: 5px;
+    font-size: 25px;
+    color: teal;
 `;

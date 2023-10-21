@@ -8,7 +8,7 @@ export const Profile = ({ user }) => {
       <div className="description">
         <StyledImg src={avatar} alt="User avatar" className="avatar" />
         <StyledText>{username}</StyledText>
-        <StyledText>@{tag}</StyledText>
+        <StyledText>{tag}</StyledText>
         <StyledText>{location}</StyledText>
       </div>
       <StyledStats>

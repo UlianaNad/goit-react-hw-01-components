@@ -16,3 +16,10 @@ export const StyledName = styled.p`
     font-weight: 600;
     font-size: 14px;
 `;
+export const StyledSpanOnline = styled.span`
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: ${props => (props.$isOnline ? "green" : "red")};
+    margin: 5px;
+`;

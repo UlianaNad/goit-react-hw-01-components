@@ -1,4 +1,4 @@
-import { StyledSection, StyledUl } from "./Statistics.styled";
+import { StyledLi, StyledSection, StyledSpanLabel, StyledSpanPercentage, StyledUl } from "./Statistics.styled";
 import PropTypes from 'prop-types'; 
 
 export const Statistics = data => {
@@ -9,10 +9,10 @@ export const Statistics = data => {
 
       <StyledUl>
         {stats.map(({ id, label, percentage }) => (
-          <li className="item" key={id}>
-            <span className="label">{label}-</span>
-            <span className="percentage">{percentage}%</span>
-          </li>
+          <StyledLi className="item" key={id}>
+            <StyledSpanLabel>{label}-</StyledSpanLabel>
+            <StyledSpanPercentage>{percentage}%</StyledSpanPercentage>
+          </StyledLi>
         ))}
       </StyledUl>
     </StyledSection>
