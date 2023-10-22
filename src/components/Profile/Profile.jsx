@@ -5,8 +5,8 @@ export const Profile = ({ user }) => {
   const { username, tag, location, avatar, stats } = user;
   return (
     <StyledDivWrapper>
-      <div className="description">
-        <StyledImg src={avatar} alt="User avatar" className="avatar" />
+      <div>
+        <StyledImg src={avatar} alt="User avatar" />
         <StyledText>{username}</StyledText>
         <StyledText>{tag}</StyledText>
         <StyledText>{location}</StyledText>

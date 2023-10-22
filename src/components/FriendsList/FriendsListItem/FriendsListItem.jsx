@@ -5,7 +5,7 @@ export const FriendsListItem = ({ avatar, name, isOnline, id }) => (
   
   <StyledLi key={id}>
     <StyledSpanOnline $isOnline={isOnline}></StyledSpanOnline>
-    <img className="avatar" src={avatar} alt="User avatar" width="48" />
+    <img src={avatar} alt="User avatar" width="48" />
     <StyledName>{name}</StyledName>
   </StyledLi>
 );
