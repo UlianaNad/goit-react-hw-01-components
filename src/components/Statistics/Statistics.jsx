@@ -5,11 +5,11 @@ export const Statistics = data => {
   const {title, stats } = data;
   return (
     <StyledSection>
-      <h2 className="title">{title}</h2>
+      {title && <h2 className="title">{title}</h2>}
 
       <StyledUl>
         {stats.map(({ id, label, percentage }) => (
-          <StyledLi className="item" key={id}>
+          <StyledLi key={id}>
             <StyledSpanLabel>{label}-</StyledSpanLabel>
             <StyledSpanPercentage>{percentage}%</StyledSpanPercentage>
           </StyledLi>
